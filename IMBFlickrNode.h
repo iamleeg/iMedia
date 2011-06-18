@@ -49,9 +49,6 @@
 
 //----------------------------------------------------------------------------------------------------------------------
 
-//	Objective Flickr
-#import <ObjectiveFlickr/ObjectiveFlickr.h>
-
 //	iMedia
 #import <iMedia/IMBNode.h>
 
@@ -137,10 +134,6 @@ typedef enum {
 @property (readonly) BOOL hasFlickrResponse;
 
 - (void) clearFlickrResponse;
-
-///	Processes the 'flickrResponse' dictionary to fill the node with actual images.
-- (void) processResponseForContext: (OFFlickrAPIContext*) context;
-
 
 #pragma mark Properties
 
